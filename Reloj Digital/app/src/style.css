@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1f1f1f;
+  }
+  
+  .clock {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+  }
+  
+  .time {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .separator {
+    margin: 0 5px;
+  }
+  
+  .hours,
+  .minutes,
+  .seconds {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+  }
+  
